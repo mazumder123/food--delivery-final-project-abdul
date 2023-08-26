@@ -1,0 +1,49 @@
+*{
+    padding: 30;
+    margin: 30;
+    box-sizing: border-box;
+}
+
+.bg-image {
+    background-image: url('./images/Group\ 1000002774.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.child-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-shift{
+    display:flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.writing{
+    background-color: transparent;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+#signin{
+    background-color: rgb(217, 38, 18);
+}
